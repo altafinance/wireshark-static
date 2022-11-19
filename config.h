@@ -47,7 +47,7 @@
 #define HAVE_TIMESPEC_GET 1
 
 /* Define to use the MaxMind DB library */
-#define HAVE_MAXMINDDB 1
+/* #undef HAVE_MAXMINDDB */
 
 /* Define to 1 if you have the <ifaddrs.h> header file. */
 #define HAVE_IFADDRS_H 1
@@ -62,7 +62,7 @@
 #define HAVE_GETIFADDRS 1
 
 /* Define if LIBSSH support is enabled */
-#define HAVE_LIBSSH 1
+/* #undef HAVE_LIBSSH */
 
 /* Define if you have the 'dlget' function. */
 /* #undef HAVE_DLGET */
@@ -74,16 +74,16 @@
 /* #undef HAVE_HEIMDAL_KERBEROS */
 
 /* Define to 1 if you have the `krb5_pac_verify' function. */
-#define HAVE_KRB5_PAC_VERIFY 1
+/* #undef HAVE_KRB5_PAC_VERIFY */
 
 /* Define to 1 if you have the `krb5_c_fx_cf2_simple' function. */
-#define HAVE_KRB5_C_FX_CF2_SIMPLE 1
+/* #undef HAVE_KRB5_C_FX_CF2_SIMPLE */
 
 /* Define to 1 if you have the `decode_krb5_enc_tkt_part' function. */
-#define HAVE_DECODE_KRB5_ENC_TKT_PART 1
+/* #undef HAVE_DECODE_KRB5_ENC_TKT_PART */
 
 /* Define to 1 if you have the `encode_krb5_enc_tkt_part' function. */
-#define HAVE_ENCODE_KRB5_ENC_TKT_PART 1
+/* #undef HAVE_ENCODE_KRB5_ENC_TKT_PART */
 
 /* Define to 1 if you have the `inflatePrime' function. */
 #define HAVE_INFLATEPRIME 1
@@ -134,7 +134,7 @@
 #define HAVE_ZLIB 1
 
 /* Define to use the minizip library */
-#define HAVE_MINIZIP 1
+/* #undef HAVE_MINIZIP */
 
 /* Define if `dos_date' (with underscore) field exists in `zip_fileinfo'  */
 /* #undef HAVE_MZCOMPAT_DOS_DATE */
@@ -173,16 +173,16 @@
 #define HAVE_NETINET_IN_H 1
 
 /* nl80211.h is new enough */
-#define HAVE_NL80211 1
+/* #undef HAVE_NL80211 */
 
 /* SET_CHANNEL is supported */
-#define HAVE_NL80211_CMD_SET_CHANNEL 1
+/* #undef HAVE_NL80211_CMD_SET_CHANNEL */
 
 /* SPLIT_WIPHY_DUMP is supported */
-#define HAVE_NL80211_SPLIT_WIPHY_DUMP 1
+/* #undef HAVE_NL80211_SPLIT_WIPHY_DUMP */
 
 /* VHT_CAPABILITY is supported */
-#define HAVE_NL80211_VHT_CAPABILITY 1
+/* #undef HAVE_NL80211_VHT_CAPABILITY */
 
 /* Define to 1 if you have macOS frameworks */
 /* #undef HAVE_MACOS_FRAMEWORKS */
@@ -236,7 +236,7 @@
 /* #undef HAVE_OPUS */
 
 /* Define to 1 if you have the speexdsp library. */
-#define HAVE_SPEEXDSP 1
+/* #undef HAVE_SPEEXDSP */
 
 /* Define to 1 if you have the lixbml2 library. */
 /* #undef HAVE_LIBXML2 */
@@ -296,7 +296,7 @@
 #define HAVE_UNISTD_H 1
 
 /* Define if we have QtMultimedia */
-#define QT_MULTIMEDIA_LIB 1
+/* #undef QT_MULTIMEDIA_LIB */
 
 /* Build androiddump with libpcap instead of wireshark stuff */
 /* #undef ANDROIDDUMP_USE_LIBPCAP */
